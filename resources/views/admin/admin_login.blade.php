@@ -49,7 +49,7 @@
       <form action="{{url('/admin')}}" method="post">
         @csrf
         <div class="input-group mb-3">
-          <input name="email" id="email" type="text" class="form-control" placeholder="Email">
+          <input name="email" id="email" type="email" class="form-control" placeholder="Email">
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-envelope"></span>
