@@ -14,6 +14,10 @@ class AdminController extends Controller
         return view('admin.admin_dashboard');
     }
 
+    public function settings(){
+        return view('admin.admin_settings');
+    }
+
     public function login(Request $request){
 
         /*echo $password = Hash::make('manager$2020'); die;*/
